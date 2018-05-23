@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button/Button.js'
 
 class App extends Component {
   render() {
@@ -11,7 +12,11 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <Button
+            onPress={function() {console.log('i want to die')}}
+            title='Button'
+            backgroundColor="#90C0FF"
+          />
         </p>
       </div>
     );
