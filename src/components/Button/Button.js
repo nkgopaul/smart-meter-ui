@@ -1,8 +1,8 @@
 import React from 'react'
-import './styles.css'
+import styles from './styles.css'
 
 const Button = (props) => {
-    console.log(primary)
+    console.log(styles.Button)
     const { onPress, title, backgroundColor } = props
 
     return (
