@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Button from './components/Button/Button.js'
+import SideMenu from './components/SideMenu/index.js'
 
 class App extends Component {
   render() {
     return (
-      <Button
-        onPress={function() {console.log('i want to die')}}
-        title='Button'
-        backgroundColor="#90C0FF"
+      <SideMenu
+        accountName="Apt #601"
       />
     );
   }

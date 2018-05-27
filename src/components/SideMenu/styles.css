@@ -1,0 +1,59 @@
+.menuWrap {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFF;
+    height: 100%;
+    background-color: #4C668C;
+    position: fixed;
+    width: 225px;
+    box-sizing: border-box;
+    overflow: auto;
+    z-index: 1100;
+}
+
+.profileHeader {
+    font-size: 20px;
+    padding: 0.65em;
+    position: relative;
+}
+
+.circle {
+    height: 57px;
+    width: 57px;
+    background-color: #758AA8;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.unitContainer {
+    display: inline-block;
+    line-height: 74px;
+}
+
+.accountName {
+    position: absolute;
+    top: 28px;
+    left: 87px;
+}
+
+.itemList {
+    display: block;
+    padding-left: 4px;
+}
+
+.item {
+    display: block;
+    outline: none;
+    padding: 0.6em;
+    position: relative;
+}
+
+.iconContainer {
+    display: inline-block;
+}
+
+.tabText {
+    left: 47px;
+    top: 12px;
+    position: absolute;
+}
