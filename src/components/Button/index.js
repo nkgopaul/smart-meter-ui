@@ -4,11 +4,11 @@ import styles from './styles.css'
 // blue: 7da8e0
 
 const Button = (props) => {
-    const { onPress, title, backgroundColor } = props
+    const { onPress, text, backgroundColor } = props
 
     return (
-        <button onClick={onPress} className={styles.Button} style={{ backgroundColor }}>{title}</button>
+        <button onClick={onPress} className={styles.Button} style={{ backgroundColor }}>{text}</button>
     )
 }
-s
+
 export default Button
