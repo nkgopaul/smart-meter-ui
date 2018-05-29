@@ -3,11 +3,11 @@
     color: #FFF;
     height: 100%;
     background-color: #4C668C;
-    position: fixed;
     width: 225px;
     box-sizing: border-box;
     overflow: auto;
     z-index: 1100;
+    float: left;
 }
 
 .profileHeader {
