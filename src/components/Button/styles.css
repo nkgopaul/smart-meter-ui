@@ -9,8 +9,14 @@
     padding: 6px 38px;
     transition: 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    outline: none;
 }
 
 .Button:hover {
     opacity: 1;
+}
+
+.Button:active {
+    opacity: 0.7;
 }

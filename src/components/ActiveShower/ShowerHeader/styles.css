@@ -5,7 +5,10 @@
 }
 
 .text {
-
+    font-size: 20px;
+    position: relative;
+    left: 17px;
+    top: 13px;
 }
 
 .buttonContainer {
