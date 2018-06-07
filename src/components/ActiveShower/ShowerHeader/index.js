@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.css'
 import Button from '../../Button/index.js'
 
-const ShowerHeader = (props) => {
+const ShowerHeader = () => {
     return (
         <div className={styles.container}>
             <span className={styles.text}>Current Shower</span>
@@ -10,12 +10,12 @@ const ShowerHeader = (props) => {
                 <Button
                     onPress={onCancel}
                     text="Cancel"
-                    backgroundColor="#7da8e0"
+                    backgroundColor="#FF8080"
                 />
                 <Button
                     onPress={onFinish}
                     text="Finish"
-                    backgroundColor="#FF8080"
+                    backgroundColor="#7da8e0"
                 />
             </span>
         </div>

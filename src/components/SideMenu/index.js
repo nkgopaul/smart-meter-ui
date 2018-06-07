@@ -3,10 +3,6 @@ import styles from './styles.css'
 import {HOME, ANALYTICS, SETTINGS, UNIT} from '../../svg/icons.js'
 
 class SideMenu extends Component {
-    // constructor() {
-    //     super()
-    // }
-
     render() {
         return (
                 <div className={styles.menuWrap}>

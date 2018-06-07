@@ -1,0 +1,29 @@
+.tracker {
+    float: left;
+    background-color: white;
+    margin: 50px;
+    width: 250px;
+    height: 85px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.valuesContainer {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+}
+
+.currContainer {
+    display:inline-block;
+}
+
+.estContainer {
+    display:inline-block;
+    margin-left: 35px;
+}
+
+.val {
+    font-size: 30px;
+}
